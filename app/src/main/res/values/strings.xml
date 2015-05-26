@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sief Cotação</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_settings">Configurações:</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_sair">Sair</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="label_activity_settings">Configurações</string>
+    <string name="label_activity_main">SiefCotação</string>
+    <string name="image">Thumbnail</string>
+    <string name="title_activity_settings_system">Configurações</string>
+    <string name="title_activity_sync_data">Sincronizar Dados</string>
+    <string name="title_activity_conc_fornec">ConcFornecActivity</string>
+    <string name="title_activity_cotacao_produto">Cotação Produto</string>
+
+</resources>

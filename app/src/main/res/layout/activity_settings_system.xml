@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.com.sistema.siefcotacao.SettingsSystemActivity">
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/textView_settings_endserver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Endereço Servidor:" />
+
+    <EditText
+        android:id="@+id/editText_settings_endserver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="http://servidor.dominio/projeto"
+        android:layout_below="@+id/textView_settings_endserver"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/textView_settings_senhaSyncDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText_settings_endserver"
+        android:text="Senha SyncDados:" />
+
+    <EditText
+        android:id="@+id/editText_settings_senhaSyncDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Senha SyncDados"
+        android:layout_below="@+id/textView_settings_senhaSyncDados"/>
+
+    <!--<CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apaga Dados após Enviar"
+        android:id="@+id/chk_settings_apagadados"
+        android:layout_below="@+id/editText_settings_endserver"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:id="@+id/button_settings_salvar"
+        android:layout_below="@+id/editText_settings_senhaSyncDados"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

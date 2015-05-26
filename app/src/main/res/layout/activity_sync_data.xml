@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="br.com.sistema.siefcotacao.SyncDataActivity">
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/textView_syncdata_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sincroniza:" />
+
+    <TextView android:text="Concorrente(s)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_syncdata_titulo"
+        android:id="@+id/textView_syncdata_concorrente"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView android:text="Produto(s)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_syncdata_concorrente"
+        android:id="@+id/textView_syncdata_produto"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView android:text="Concorrente(s) / Produto(s)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_syncdata_produto"
+        android:id="@+id/textView_syncdata_conc_prod"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sincronizar"
+        android:id="@+id/button_syncdata"
+        android:layout_below="@+id/textView_syncdata_conc_prod"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+
+
+</RelativeLayout>
